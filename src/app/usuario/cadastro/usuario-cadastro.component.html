@@ -1,0 +1,14 @@
+<div class="ui-g ui-fluid">
+    <div class="ui-g-12 ui-md-4">
+        <div class="ui-inputgroup">
+            <input type="text" [(ngModel)]="usuario.nome" pInputText placeholder="Nome">
+        </div>
+    </div>
+    <div class="ui-g-12 ui-md-4">
+        <div class="ui-inputgroup">
+            <input type="email" [(ngModel)]="usuario.email" pInputText placeholder="Email">
+            &nbsp;&nbsp;&nbsp;
+        </div>
+    </div>
+    <button pButton (click)="salvar()" label="Salvar"></button>
+</div>
